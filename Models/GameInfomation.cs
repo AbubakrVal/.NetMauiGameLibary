@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.linq;
+using System.text;
+using System.Threading.Tasks;
+
+
+namespace .NetMauiGameLibary.Models
+{
+    public class GameInformation
+    {
+        public string Title { get; set; }
+        public string GameType { get; set; }
+        public string CompanyName { get; set; }
+        public string Genre { get; set; }
+        public int AgeRestriction { get; set; }
+        public bool Multiplayer { get; set; }
+        public string Description { get; set; }
+        public string Image { get; set; }
+        public DataTime YearPublished { get; set; }
+
+    }
+}
