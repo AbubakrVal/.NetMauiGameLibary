@@ -9,6 +9,7 @@ namespace .NetMauiGameLibary.Models
 {
     public class GameInformation
     {
+        public string Id { get; set; }
         public string Title { get; set; }
         public string GameType { get; set; }
         public string CompanyName { get; set; }

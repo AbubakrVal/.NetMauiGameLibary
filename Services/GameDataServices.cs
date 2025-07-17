@@ -9,7 +9,11 @@ namespace .NetMauiGameLibary.Services
 {
     public class GameDataServices
     {
-        public GameInformation GetgameInformation()
+        public GameInformation GetgameInformationById(string Id)
+        {
+            
+        }
+        public GameInformation GetgameInformationByTitle(string Title)
         {
             
         }
