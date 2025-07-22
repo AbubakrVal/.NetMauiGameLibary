@@ -1,4 +1,4 @@
-﻿namespace _NetMauiGameLibary;
+﻿namespace NetMauiGameLibary;
 
 public partial class AppShell : Shell
 {

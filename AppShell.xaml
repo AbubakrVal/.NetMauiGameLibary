@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="_NetMauiGameLibary.AppShell"
+    x:Class="NetMauiGameLibary.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:_NetMauiGameLibary"
-    Title="_NetMauiGameLibary">
+    xmlns:local="clr-namespace:NetMauiGameLibary"
+    xmlns:views="clr-namespace:NetMauiGameLibary.Views"
+    Title="NetMauiGameLibary">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Games"
+        ContentTemplate="{DataTemplate views:ListOfGamesView}"
+        Route="ListOfGamesView" />
 
 </Shell>

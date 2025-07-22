@@ -1,7 +1,9 @@
 ﻿using Android.App;
 using Android.Runtime;
+using Microsoft.Maui;
+using Microsoft.Maui.Hosting;
 
-namespace _NetMauiGameLibary;
+namespace NetMauiGameLibary;
 
 [Application]
 public class MainApplication : MauiApplication

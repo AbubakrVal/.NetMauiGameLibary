@@ -1,6 +1,11 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.Maui.Controls.Hosting;
+using Microsoft.Maui.Hosting;
+using NetMauiGameLibary.Views;
+using NetMauiGameLibary.ViewModels;
+using NetMauiGameLibary.Services;
 
-namespace _NetMauiGameLibary;
+namespace NetMauiGameLibary;
 
 public static class MauiProgram
 {
@@ -18,6 +23,10 @@ public static class MauiProgram
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
+
+		builder.Services.AddTransient<ListOfGamesView>();
+		builder.Services.AddTransient<ListOfGamesViewModel>();
+		builder.Services.AddSingleton<GameDataServices>();
 
 		return builder.Build();
 	}

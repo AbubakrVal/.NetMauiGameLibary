@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.linq;
-using System.text;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 
-namespace .NetMauiGameLibary.Models
+namespace NetMauiGameLibary.Models
 {
     public class GameInformation
     {
@@ -18,7 +18,7 @@ namespace .NetMauiGameLibary.Models
         public bool Multiplayer { get; set; }
         public string Description { get; set; }
         public string Image { get; set; }
-        public DataTime YearPublished { get; set; }
+        public DateTime YearPublished { get; set; }
 
     }
 }
